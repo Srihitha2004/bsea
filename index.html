@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"><b>Append<span class="dot">.</span></b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="scrollToSection('home-section')">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="scrollToSection('about-section')" >About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="scrollToSection('services-section')">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="scrollToSection('pricing-section')">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="scrollToSection('team-section')">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="scrollToSection('contact-section')">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-danger text-white" href="#">Get Started</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero-section" id="home-section">
+        <div class="container hero-content">
+            <h1>Welcome to Our Website</h1>
+            <p>We are a team of talented designers making websites with Bootstrap</p>
+            <form class="form-inline">
+                <input class="form-control" type="email" placeholder="Enter email address">
+                <button class="btn btn-danger" type="submit">Sign up</button>
+            </form>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-2 my-2">
+                <img src="myob.png" class="img-fluid" alt="image 1">
+            </div>
+            <div class="col-md-2 my-2">
+                <img src="belomo.png" class="img-fluid" alt="image 2">
+            </div>
+            <div class="col-md-2 my-2">
+                <img src="life.png" class="img-fluid" alt="image 3">
+            </div>
+            <div class="col-md-2 my-2">
+                <img src="grabyo.png" class="img-fluid" alt="image 4">
+            </div>
+            <div class="col-md-2 my-2">
+                <img src="citrus.png" class="img-fluid" alt="image 5">
+            </div>
+            <div class="col-md-2 my-2">
+                <img src="trustly.png" class="img-fluid" alt="image 6">
+            </div>
+        </div>
+    </div>
+    <section class="about-section container" id="about-section">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-header">
+                    <span class="label">About Us</span>
+                </div>
+                <h2 class="about-title">Ducimus rerum libero reprehenderit cumque</h2>
+                <p class="about-text">
+                    Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.
+                </p>
+                <a href="#" class="btn btn-danger">Read More →</a>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-6 feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-building" aria-hidden="true"></i>
+                        </div>
+                        <h4 class="feature-title">Eius provident</h4>
+                        <p class="feature-text">Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                    </div>
+                    <div class="col-sm-6 feature-box">
+                        <div class="feature-icon">
+                            <i class="fa fa-clipboard" aria-hidden="true"></i>
+                        </div>
+                        <h4 class="feature-title">Rerum aperiam</h4>
+                        <p class="feature-text">Autem saepe animi et aut aspernatur culpa facere. Rerum saepe rerum voluptates quia</p>
+                    </div>
+                    <div class="col-sm-6 feature-box">
+                        <div class="feature-icon">
+                            <i class="fa fa-terminal" aria-hidden="true"></i>
+                        </div>
+                        <h4 class="feature-title">Veniam omnis</h4>
+                        <p class="feature-text">Omnis perferendis molestias culpa sed. Recusandae quas possimus. Quod consequatur corrupti</p>
+                    </div>
+                    <div class="col-sm-6 feature-box">
+                        <div class="feature-icon">
+                            <i class="fa fa-line-chart" aria-hidden="true"></i>
+                        </div>
+                        <h4 class="feature-title">Delares sapiente</h4>
+                        <p class="feature-text">Sint et dolor voluptas minus possimus nostrum. Reiciendis commodi eligendi omnis quidem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="data-container">
+            <div class="info">
+                <div class="number">232</div>
+                <div class="para">Clients</div>
+            </div>
+            <div class="info">
+                <div class="number">521</div>
+                <div class="para">Projects</div>
+            </div>
+            <div class="info">
+                <div class="number">1453</div>
+                <div class="para">Hours Of Support</div>
+            </div>
+            <div class="info">
+                <div class="number">32</div>
+                <div class="para">Workers</div>
+            </div>
+        </div>
+</section>
+<section class="services" id="services-section">
+    <div class="container my-5">
+        <div class="text-center mb-4">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="service-box d-flex align-items-start">
+                    <div class="service-icon">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    </div>
+                    <div class="service-content ml-3">
+                        <h5 class="service-title">Lorem Ipsum</h5>
+                        <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="service-box d-flex align-items-start">
+                    <div class="service-icon">
+                        <i class="fa fa-list-alt" aria-hidden="true"></i>
+                    </div>
+                    <div class="service-content ml-3">
+                        <h5 class="service-title">Dolor Sitema</h5>
+                        <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="service-box d-flex align-items-start">
+                    <div class="service-icon">
+                        <i class="fa fa-signal" aria-hidden="true"></i>
+                    </div>
+                    <div class="service-content ml-3">
+                        <h5 class="service-title">Sed ut perspiciatis</h5>
+                        <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="service-box d-flex align-items-start">
+                    <div class="service-icon">
+                        <i class="fa fa-binoculars" aria-hidden="true"></i>
+                    </div>
+                    <div class="service-content ml-3">
+                        <h5 class="service-title">Magni Dolores</h5>
+                        <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="service-box d-flex align-items-start">
+                    <div class="service-icon">
+                        <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    </div>
+                    <div class="service-content ml-3">
+                        <h5 class="service-title">Nemo Enim</h5>
+                        <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="service-box d-flex align-items-start">
+                    <div class="service-icon">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                    </div>
+                    <div class="service-content ml-3">
+                        <h5 class="service-title">Eiusmod Tempor</h5>
+                        <p class="service-description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Features</h2>
+            <p class="section-subtitle">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <h3 class="feature-title">Corporis temporibus maiores provident</h3>
+                <p class="feature-description">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                <a href="#" class="btn btn-danger">Get Started</a>
+            </div>
+            <div class=" image-content">
+                <img src="2.jpg" alt="Feature Image" class="background-image">
+                <img src="3.jpg" alt="Overlay Image" class="overlay-image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="feature-image">
+                <img src="4.jpg" alt="Feature Image">
+            </div>
+            <div class="col-lg-6">
+                <h3 class="feature-title">Sunt consequatur ad ut est nulla</h3>
+                <p class="feature-description">Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+                <ul class="feature-list">
+                    <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+                </ul>
+                <a href="#" class="btn btn-danger">Get Started</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="pricing py-5" id="pricing-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Pricing</h2>
+            <p class="section-subtitle">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-5 mb-md-0">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <i class="fa fa-cube fa-3x mb-3"></i>
+                            <h5 class="card-title">Free Plan</h5>
+                            <h6 class="card-price">$0<span class="period">/month</span></h6>
+                        </div>
+                        <ul class="fa-ul features-list">
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Quam adipiscing vitae proin</li>
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Nec feugiat nisl pretium</li>
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Nulla at volutpat diam uteera</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Phrater massa massa ultricies</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Massa ultricies mi quis hendrerit</li>
+                        </ul>
+                        <a href="#" class="btn btn-danger">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-5 mb-md-0">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <i class="fa fa-rocket fa-3x mb-3"></i>
+                            <h5 class="card-title">Business Plan</h5>
+                            <h6 class="card-price">$29<span class="period">/month</span></h6>
+                        </div>
+                        <ul class="fa-ul features-list">
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Quam adipiscing vitae proin</li>
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Nec feugiat nisl pretium</li>
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Nulla at volutpat diam uteera</li>
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Phrater massa massa ultricies</li>
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Massa ultricies mi quis hendrerit</li>
+                        </ul>
+                        <a href="#" class="btn btn-danger">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-5 mb-md-0">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <i class="fa fa-paper-plane fa-3x mb-3"></i>
+                            <h5 class="card-title">Developer Plan</h5>
+                            <h6 class="card-price">$49<span class="period">/month</span></h6>
+                        </div>
+                        <ul class="fa-ul features-list">
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Quam adipiscing vitae proin</li>
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Nec feugiat nisl pretium</li>
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Nulla at volutpat diam uteera</li>
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Phrater massa massa ultricies</li>
+                            <li><span class="fa-li"><i class="fa fa-check"></i></span>Massa ultricies mi quis hendrerit</li>
+                        </ul>
+                        <a href="#" class="btn btn-danger">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 faq-intro">
+                <h2>Frequently Asked Questions</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit.</p>
+            </div>
+            <div class="col-md-8">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-target="#collapse1" class="collapsed">
+                                    <span style="color: #c9302c;">1.</span> Non consectetur a erat nam at lectus urna duis?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-target="#collapse2" class="collapsed">
+                                    <span style="color: #c9302c;">2.</span> Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-target="#collapse3" class="collapsed">
+                                    <span style="color: #c9302c;">3.</span> Dolor sit amet consectetur adipiscing elit pellentesque?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-target="#collapse4" class="collapsed">
+                                    <span style="color: #c9302c;">4.</span> Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-target="#collapse5" class="collapsed">
+                                    <span style="color: #c9302c;">5.</span> Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="team-section" id="team-section">
+    <div class="container">
+        <span class="section-title"><b>Our Team</b></span>
+        <p class="section-subtitle">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="row">
+            <div class="col-sm-4 team-member">
+                <div class="member-image">
+                <img src="5.jpg" alt="Walter White">
+                <div class="overlay">
+                    <div class="social-icons">
+                        <a href="https://twitter.com" target="_blank" class="fab fa-twitter"></a>
+                        <a href="https://facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+                        <a href="https://instagram.com" target="_blank" class="fab fa-instagram"></a>
+                        <a href="https://linkedin.com" target="_blank" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+                </div>
+                <h3>Walter White</h3>
+                <p>Chief Executive Officer</p>
+                <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorem distinctio dire flow</p>
+            </div>
+            <div class="col-sm-4 team-member">
+                <div class="member-image">
+                    <img src="6.jpg" alt="Team Member 2">
+                    <div class="overlay">
+                      <div class="social-icons">
+                          <a href="https://twitter.com" target="_blank" class="fab fa-twitter"></a>
+                          <a href="https://facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+                          <a href="https://instagram.com" target="_blank" class="fab fa-instagram"></a>
+                          <a href="https://linkedin.com" target="_blank" class="fab fa-linkedin"></a>
+                      </div>
+                    </div>
+                  </div>
+                <h3>Sarah Jhonson</h3>
+                <p>Product Manager</p>
+                <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
+            </div>
+            <div class="col-sm-4 team-member">
+                <div class="member-image">
+                    <img src="7.jpg" alt="Team Member 3">
+                    <div class="overlay">
+                      <div class="social-icons">
+                          <a href="https://twitter.com" target="_blank" class="fab fa-twitter"></a>
+                          <a href="https://facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+                          <a href="https://instagram.com" target="_blank" class="fab fa-instagram"></a>
+                          <a href="https://linkedin.com" target="_blank" class="fab fa-linkedin"></a>
+                      </div>
+                    </div>
+                    </div>
+                <h3>William Anderson</h3>
+                <p>CTO</p>
+                <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-2 team-member">
+                <div class="member-image">
+                    <img src="8.jpg" alt="Team Member 4">
+                    <div class="overlay">
+                      <div class="social-icons">
+                          <a href="https://twitter.com" target="_blank" class="fab fa-twitter"></a>
+                          <a href="https://facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+                          <a href="https://instagram.com" target="_blank" class="fab fa-instagram"></a>
+                          <a href="https://linkedin.com" target="_blank" class="fab fa-linkedin"></a>
+                      </div>
+                    </div>
+                  </div>
+                <h3>Amanda Jepson</h3>
+                <p>Accountant</p>
+                <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptates sed et veniam quasi quam consectetur</p>
+            </div>
+            <div class="col-sm-4 team-member">
+                <div class="member-image">
+                    <img src="9.jpg" alt="Team Member 5">
+                    <div class="overlay">
+                      <div class="social-icons">
+                          <a href="https://twitter.com" target="_blank" class="fab fa-twitter"></a>
+                          <a href="https://facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+                          <a href="https://instagram.com" target="_blank" class="fab fa-instagram"></a>
+                          <a href="https://linkedin.com" target="_blank" class="fab fa-linkedin"></a>
+                      </div>
+                    </div>
+                  </div>
+                <h3>Brian Doe</h3>
+                <p>Marketing</p>
+                <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
+            </div>
+            <div class="col-sm-4 team-member">
+                <div class="member-image">
+                    <img src="10.jpg" alt="Team Member 6">
+                    <div class="overlay">
+                      <div class="social-icons">
+                          <a href="https://twitter.com" target="_blank" class="fab fa-twitter"></a>
+                          <a href="https://facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+                          <a href="https://instagram.com" target="_blank" class="fab fa-instagram"></a>
+                          <a href="https://linkedin.com" target="_blank" class="fab fa-linkedin"></a>
+                      </div>
+                    </div>
+                  </div>
+                <h3>Josepha Palas</h3>
+                <p>Operation</p>
+                <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugiat eligendi cupiditate vel</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact-section">
+        <span class="section-title"><b>Contact us</b></span>
+            <p class="section-subtitle">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <div class="contact-container">
+            <div class="contact-info" id="address">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <h3>Address</h3>
+                <p>A108 Adam Street<br>New York, NY 535022</p>
+            </div>
+            <div class="contact-info" id="call-us">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <h3>Call Us</h3>
+                <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+            </div>
+            <div class="contact-info" id="email">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <h3>Email Us</h3>
+                <p>info@example.com<br>contact@example.com</p>
+            </div>
+            <div class="contact-info" id="open-hours">
+                <i class="fa fa-clock" aria-hidden="true"></i>
+                <h3>Open Hours</h3>
+                <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+            </div>
+        <div class="row contact-form">
+            <div class="col-md-6 col-md-offset-3">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Append</h3>
+                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                <div class="social-icon">
+                    <a href="https://twitter.com" target="_blank" class="fab fa-twitter"></a>
+                    <a href="https://facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+                    <a href="https://instagram.com" target="_blank" class="fab fa-instagram"></a>
+                    <a href="https://linkedin.com" target="_blank" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="col-md-3 footer-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Terms of service</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-services">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Product Management</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-contact">
+                <h3>Contact Us</h3>
+                <p>A108 Adam Street<br>New York, NY 535022<br>United States</p>
+                <p><strong>Phone:</strong> +1 5589 55488 55<br>
+                   <strong>Email:</strong> info@example.com</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="copyright">
+                    &copy; Copyright <strong>Append</strong>. All Rights Reserved
+                    <br>
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
